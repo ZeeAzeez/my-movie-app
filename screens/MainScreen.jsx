@@ -10,7 +10,11 @@ const MainScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
    
-      <ReusableTexts text="Movie App" family="Arial" size={24} color="black" />
+   {/* <ReusableTexts text="Movie Apps for me" family="Arial" size={24} color="green" /> */}
+
+   <View>
+    <Text>Movie App Menu </Text>
+   </View>
 
       <SearchBar
       placeholder='search movies..'
@@ -31,7 +35,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
       },
       searchContainer: {
-        backgroundColor: 'purple',
+        backgroundColor: 'yellow',
         borderRadius: 10,
         marginTop: 10,
         borderBottomColor: 'transparent',
